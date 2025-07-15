@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.offer-bar {
+    background-color: #1D232c;
+    color: #E2E1E1;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #1D232C;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding-top: 1vw;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    z-index: 3;
+
+}
+
+.navbar-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-menu-toggle{
+    display: block;
+    } 
+}
+.navbar-menu-toggle{
+    display: none;
+}
+
+.sliderslider-image-container{
+    display: flex;
+    transition: 2s;
+}
